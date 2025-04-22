@@ -1,21 +1,20 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Складской учёт",
+  "short_name": "Учёт",
+  "start_url": "/",
+  "display": "standalone",
   "icons": [
     {
-      "src": "icon/web-app-manifest-192x192.png",
+      "src": "./icon/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
+      "type": "image/png"
     },
     {
-      "src": "icon/web-app-manifest-512x512.png",
+      "src": "./icon/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
+      "type": "image/png"
     }
   ],
   "theme_color": "#ffffff",
-  "background_color": "#fcf8f8",
-  "display": "standalone"
+  "background_color": "#ffffff"
 }
