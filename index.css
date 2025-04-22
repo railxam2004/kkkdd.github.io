@@ -1,0 +1,12 @@
+@import url("./css/normalize.css");
+@import url("./css/default.css");
+@import url("./fonts/fonts.css");
+
+@import url("./css/header.css");
+@import url("./css/hero.css");
+@import url("./css/description.css");
+@import url("./css/benefits.css");
+@import url("./css/instructions.css");
+@import url("./css/tariffs.css");
+@import url("./css/application.css");
+@import url("./css/footer.css");

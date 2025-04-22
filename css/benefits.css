@@ -1,0 +1,139 @@
+.benefits {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/images/benefitsImage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 73px 74px 97px;
+}
+
+.benefits__title {
+  width: 450px;
+  font-size: 50px;
+  border-bottom: 5px solid rgba(129, 135, 200, 1);
+  padding-bottom: 10px;
+  margin-bottom: 24px;
+}
+
+.benefits__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 70px;
+}
+
+.benefits__item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+  height: 80px;
+}
+
+.benefits__item-icon {
+  background-image: url("/images/checkIcon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 80px;
+  height: 80px;
+}
+
+.benefits__item-text {
+  font-size: 45px;
+}
+
+.benefits__subtitle {
+  font-size: 60px;
+  text-align: center;
+  width: 1050px;
+  margin: 0 auto 55px;
+}
+
+.benefits__button {
+  width: 384px;
+  height: 88px;
+  border-radius: 15px;
+  color: #fff;
+  background-color: rgba(233, 90, 93, 1);
+  border: none;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  line-height: 78px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1230px) {
+  .benefits__subtitle {
+    width: 100%;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .benefits__item-text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .benefits__subtitle {
+    font-size: 45px;
+  }
+
+  .benefits__button {
+    width: 244px;
+    height: 72px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .benefits__title {
+    font-size: 25px;
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .benefits {
+    padding: 10px 20px;
+  }
+
+  .benefits__title {
+    font-size: 25px;
+    padding-bottom: 10px;
+    width: 220px;
+    margin-bottom: 33px;
+  }
+
+  .benefits__item {
+    height: 40px;
+    gap: 10px;
+  }
+
+  .benefits__item-text {
+    font-size: 16px;
+  }
+
+  .benefits__item-icon {
+    min-width: 40px;
+  }
+
+  .benefits__subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .benefits__button {
+    width: 127px;
+    height: 45px;
+    font-size: 15px;
+    line-height: 40px;
+  }
+}
