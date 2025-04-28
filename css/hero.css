@@ -1,7 +1,7 @@
 .hero {
   width: 1291px;
   height: 441px;
-  background-image: url("/images/heroImage.svg");
+  background-image: url("./images/heroImage.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
