@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-image: url("/images/benefitsImage.png");
+  background-image: url("./images/benefitsImage.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@
 }
 
 .benefits__item-icon {
-  background-image: url("/images/checkIcon.svg");
+  background-image: url("./images/checkIcon.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
