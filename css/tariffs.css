@@ -51,7 +51,7 @@
 }
 
 .tariffs__item-list-item-icon {
-  background-image: url("/images/circle.svg");
+  background-image: url("./images/circle.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
